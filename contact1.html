@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>popup wiindow</title>
+    <script src="https://use.fortawesome.com/349cfdf6.js"></script>
+    <script src="https://kit.fontawesome.com/3e59ef2d82.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/stylep.css">
+</head>
+
+<body>
+    <button id="open-popup-btn">open it</button>
+    <div class="popup-close-btn">&times
+</div>
+<fieldset class="pop">
+    <div >
+        <box class="box-1">
+            <div class="spr">
+                <h1>SPRING SALE</h1>
+            </div>
+            <br>
+            <hr color="green" />
+            <div class="per">
+                <p>40%</p>
+                <p>OFF</p>
+            </div>
+            <hr color="green" /><br>
+        </box>
+       
+        <box class="box-2">
+
+
+
+            <h3>ENTER EMAIL BELOW T0 UNLOCK</h3><br>
+            <form class="form">
+                <div class="form-1">
+                    <input type="text" placeholder="enter email address">
+                </div>
+                <br>
+                <div class="form-1">
+                    <input type="checkbox" id="check" name="check" value="box">
+                    <label for="check"> Yes, I'd like to receive news and special offers</label>
+                </div><br>
+                <button class="btn">GET MY 40% OFF</button><br><br>
+                <div class="font">
+                    <h1>NO THANKS</h1>
+                </div>
+
+            </form>
+        </box>
+    </div>
+</fieldset>
+  
+</body>
+<script>
+    var openPopupBtn = document.querySelector("#open-popup-btn");
+   var closePopupBtn = document.querySelector(".popup-close-btn");
+
+   openPopupBtn.addEventListener("click",function(){
+       document.body.classList.add("pop")
+   })
+   closePopupBtn.addEventListener("click",function(){
+       document.body.classList.remove("pop")
+   })
+</script>
+
+</html>
