@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    background-color: grey;
+    
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: black;
+    
+}
+
+.menu ul li{
+    display: inline-flex;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.menu ul li a{
+    color: white;
+}
+
+/* .btn2{
+    background-color: gray;
+    float: right;
+    padding-right: 380px;
+    color: solid black;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+} */
+.popup-close-btn{
+    background-color: gray;
+    float: right;
+    padding-right: 380px;
+    color: solid black;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.pop{
+    margin: 100px 400px;
+}
+
+.box-1{
+    background-color: rgb(68, 32, 103);
+    
+        float: left;
+        width: 40%;
+        padding: 50px;
+        text-align: center;
+    
+}
+.box-2{
+    background-color: #fff;
+    float: left;
+    width: 60%;
+    padding: 50px;
+    text-align: center;
+    
+
+}
+
+
+.spr{
+    font-size: 19px;
+    color: white;
+}
+
+.per{
+    font-size: 50px;
+    color: white;
+}
+.form input{
+    width: 110%;
+    height: 50px;
+    border-color: rgb(68, 32, 103);
+}
+#check{
+    float: left;
+    height: 30px;
+    width: 30px;
+}
+
+.btn{
+    background-color: rgb(183, 245, 224);
+    width: 110%;
+    height: 50px;
+    border: none;
+    
+
+
+}
+
+.font{
+    color: grey;
+    font-size: 10px;
+}
